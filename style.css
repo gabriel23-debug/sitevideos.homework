@@ -1,0 +1,50 @@
+body {
+    color: yellow;
+    background: green;
+    margin: 0px;
+    border: solid 8px blue;
+    font-family: "Chakra Petch", sans-serif;
+    
+}
+header{
+    border-bottom: solid 2px blue;
+    padding: 20px;
+    font-size: 40px;
+}
+section{
+    padding: 80px;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+p {
+    font-size: 25px;
+}
+
+img {
+    height: 250px;
+    width: 400;
+}
+
+.videos {
+display: flex;
+overflow-x: auto;
+gap: 20px;
+}
+
+.topo {
+    display: flex;
+    overflow-x: auto;
+    gap: 100px;
+   
+}
+
+.secao-video {
+    background-color: blue;
+}
+
+.secao-video img:hover {
+    border : 5px solid yellow;
+    }
